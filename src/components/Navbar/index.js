@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 import Logo from "../../components/Logo";
 import "./navbar.scss";
 
-const index = () => {
+const Navbar = ({ toggle }) => {
   return (
     <nav className="flex justify-center items-center sticky transition duration-500 ease-in-out top-0 z-20 h-20">
       <div className="flex justify-between items-center h-20 z-10 w-full px-8 max-w-screen-xl">
         <Logo height="h-8" />
-        <div className="md:hidden text-2xl text-brand">
+        <div className="md:hidden text-2xl text-brand" onClick={toggle}>
           <HiOutlineMenuAlt1 />
         </div>
         <ul className="hidden md:flex items-center list-none text-md font-medium text-center -mr-5">
@@ -56,4 +56,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Navbar;
