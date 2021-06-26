@@ -4,10 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        navy: "#0a192f",
+        navy: "#060e1a",
         brand: "#64FFDA",
+        "light-gray": "#ccd6f6",
       },
-      borderColor: ['active']
+      borderColor: ["active"],
     },
   },
   variants: {

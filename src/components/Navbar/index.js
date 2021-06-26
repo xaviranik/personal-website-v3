@@ -11,30 +11,42 @@ const index = () => {
         <div className="md:hidden text-2xl text-brand">
           <HiOutlineMenuAlt1 />
         </div>
-        <ul className="hidden md:flex items-center list-none text-lg text-center -mr-5">
+        <ul className="hidden md:flex items-center list-none text-md font-medium text-center -mr-5">
           <li className="h-20">
-            <Link className="flex items-center px-5 h-full text-brand" to="/">
+            <Link
+              className="flex items-center px-7 h-full text-gray-300 hover:text-brand transition duration-700 ease-in-out active"
+              to="/"
+            >
               About
             </Link>
           </li>
           <li className="h-20">
-            <Link className="flex items-center px-5 h-full text-brand" to="/">
+            <Link
+              className="flex items-center px-7 h-full text-gray-300 hover:text-brand transition duration-700 ease-in-out"
+              to="/"
+            >
               Projects
             </Link>
           </li>
           <li className="h-20">
-            <Link className="flex items-center px-5 h-full text-brand" to="/">
+            <Link
+              className="flex items-center px-7 h-full text-gray-300 hover:text-brand transition duration-700 ease-in-out"
+              to="/"
+            >
               Blog
             </Link>
           </li>
           <li className="h-20">
-            <Link className="flex items-center px-5 h-full text-brand" to="/">
+            <Link
+              className="flex items-center px-7 h-full text-gray-300 hover:text-brand transition duration-700 ease-in-out"
+              to="/"
+            >
               Contact
             </Link>
           </li>
         </ul>
         <Link
-          className="border-2 border-solid border-brand px-4 py-1 text-brand rounded-md hover:bg-brand hover:text-navy transition duration-500 ease-in-out"
+          className="hidden md:flex border-2 border-solid border-brand px-5 py-1 text-brand rounded-md hover:bg-brand hover:text-navy font-medium transition duration-700 ease-in-out"
           to="/"
         >
           Resume
