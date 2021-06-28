@@ -138,3 +138,16 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #060e1a;
 }
+
+body::-webkit-scrollbar {
+  width: 0.4em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.164);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #64ffda;
+  outline: 1px solid slategrey;
+}
