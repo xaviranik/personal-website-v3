@@ -1,18 +1,20 @@
 import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
+import "./intro.scss";
 
 const Intro = () => {
   return (
-    <div className="w-full m-auto max-w-screen-xl text-gray-300">
+    <div className="w-full m-auto max-w-screen-lg text-gray-300">
       <div className="flex flex-col h-screen justify-center items-center -mt-20 px-8">
         <Fade bottom>
           <h1 className="text-brand text-sm md:text-xl mt-8">Hello, World</h1>
           <h1 className="text-4xl text-gray-300 font-semibold mt-4 md:text-7xl md:mt-8">
-            I am Zabir Anik
+            I am <span>Zabir Anik</span>
           </h1>
 
-          <h1 className="text-gray-400 text-2xl text-center mt-8 md:text-5xl md:mt-12">
-            I love to think about <span className="text-brand">ideas</span> that
+          <h1 className="heading text-gray-400 text-2xl text-center mt-8 md:text-5xl md:mt-12">
+            I love to think about{" "}
+            <span className="underline-x text-gray-400">ideas</span> that
             matter.
           </h1>
           <Link
