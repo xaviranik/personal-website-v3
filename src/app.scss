@@ -127,6 +127,7 @@ table {
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500&display=swap");
 
 // Tailwind CSS
 @import "tailwindcss/base";
@@ -144,10 +145,32 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.164);
+  box-shadow: inset 0 0 6px rgba(15, 15, 15, 0.164);
 }
 
 body::-webkit-scrollbar-thumb {
   background-color: #0b192e;
   outline: 1px solid #060e1a;
+}
+
+.font-mono {
+  font-family: "Fira Mono";
+}
+
+.underline-x {
+  background-image: linear-gradient(120deg, #64ffdb67 0%, #64ffdb28 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.15em;
+  background-position: 0 78%;
+  -webkit-transition: all 0.9s ease-in-out;
+  transition: all 0.9s ease-in-out;
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+
+  &:hover {
+    color: #64ffda;
+    text-shadow: 0 0 1px #64ffda, 0 0 2px #64ffda, 0 0 4px #64ffda,
+      0 0 12px #64ffda, 0 0 20px #64ffda;
+    background-size: 100% 88%;
+    cursor: pointer;
+  }
 }

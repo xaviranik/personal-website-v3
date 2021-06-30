@@ -6,7 +6,7 @@ import "./navbar.scss";
 
 const Navbar = ({ toggle }) => {
   return (
-    <nav className="flex justify-center items-center sticky transition duration-500 ease-in-out top-0 z-20 h-20">
+    <nav className="flex justify-center items-center sticky transition duration-500 ease-in-out top-0 z-20 h-20 bg-navy">
       <Fade top>
         <div className="flex justify-between items-center h-20 z-10 w-full px-8 max-w-screen-xl">
           <Logo height="h-8" />
