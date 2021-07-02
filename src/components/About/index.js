@@ -6,7 +6,7 @@ const About = () => {
     <div className="w-full m-auto max-w-screen-lg text-left px-8">
       <div className="section-heading">
         <Fade bottom>
-          <h1 className="text-gray-400 text-2xl font-medium underline-x md:inline-block md:text-3xl">
+          <h1 className="text-gray-300 text-2xl font-medium underline-x md:inline-block md:text-3xl">
             About Me
           </h1>
         </Fade>

@@ -1,12 +1,29 @@
 import { HiOutlineMenuAlt1 } from "react-icons/hi";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
 import Logo from "../../components/Logo";
 import "./navbar.scss";
 
 const Navbar = ({ toggle }) => {
+  const [navbar, setNavbar] = useState(false);
+
+  const changeNavBackground = () => {
+    if (window.scrollY >= 40) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeNavBackground);
+
   return (
-    <nav className="flex justify-center items-center sticky transition duration-500 ease-in-out top-0 z-20 h-20 bg-navy">
+    <nav
+      className={`flex justify-center items-center sticky transition duration-500 ease-in-out top-0 z-20 h-20 bg-navy ${
+        navbar ? "scrolled" : ""
+      }`}
+    >
       <Fade top>
         <div className="flex justify-between items-center h-20 z-10 w-full px-8 max-w-screen-xl">
           <Logo height="h-8" />
@@ -48,7 +65,7 @@ const Navbar = ({ toggle }) => {
             </li>
           </ul>
           <Link
-            className="hidden md:flex border-2 border-solid border-brand px-5 py-1 text-brand rounded-md hover:bg-brand hover:text-navy font-medium transition duration-700 ease-in-out"
+            className="hidden md:flex border-2 border-solid border-brand px-5 py-1 text-brand rounded-md hover:bg-brand hover:text-navy font-medium transition duration-1000 ease-in-out"
             to="/"
           >
             Resume

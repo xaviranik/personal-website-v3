@@ -1,0 +1,7 @@
+#work ul li::before {
+  content: "◆";
+  position: absolute;
+  left: 0px;
+  color: #64ffda;
+  opacity: 50%;
+}

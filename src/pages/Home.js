@@ -3,6 +3,7 @@ import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
 import Intro from "../components/Intro";
 import About from "../components/About";
+import Work from "../components/Work";
 
 const Home = () => {
   const [isOpen, setisOpen] = useState(false);
@@ -17,6 +18,7 @@ const Home = () => {
       <Navbar toggle={toggleSidebar} />
       <Intro />
       <About />
+      <Work />
     </>
   );
 };

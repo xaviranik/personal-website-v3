@@ -164,7 +164,6 @@ body::-webkit-scrollbar-thumb {
   background-position: 0 78%;
   -webkit-transition: all 0.9s ease-in-out;
   transition: all 0.9s ease-in-out;
-  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 
   &:hover {
     color: #64ffda;
