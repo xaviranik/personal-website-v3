@@ -63,6 +63,28 @@ export const SidebarLink = styled(LinkS)`
     color: #64ffda;
     transition: 0.5s ease-in-out;
   }
+
+  &.active {
+    color: #64ffda;
+    transition: 0.5s ease-in-out;
+  }
+`;
+
+export const SidebarLinkR = styled(LinkR)`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  text-decoration: none;
+  list-style: none;
+  transition: 0.5s ease-in-out;
+  color: #e5e7eb;
+  cursor: pointer;
+
+  &:hover {
+    color: #64ffda;
+    transition: 0.5s ease-in-out;
+  }
 `;
 
 export const SidebarBtnWrap = styled.div`
