@@ -45,9 +45,7 @@ const ProjectCard = ({ name, description, tags, links }) => {
             {links.external && (
               <Link
                 to={{
-                  pathname: {
-                    pathname: links.external,
-                  },
+                  pathname: links.external,
                 }}
                 target="_blank"
               >
