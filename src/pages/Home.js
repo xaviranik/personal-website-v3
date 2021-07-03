@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import Intro from "../components/Intro";
 import About from "../components/About";
 import Work from "../components/Work";
+import Portfolio from "../components/Portfolio";
 
 const Home = () => {
   const [isOpen, setisOpen] = useState(false);
@@ -19,6 +20,7 @@ const Home = () => {
       <Intro />
       <About />
       <Work />
+      <Portfolio />
     </>
   );
 };

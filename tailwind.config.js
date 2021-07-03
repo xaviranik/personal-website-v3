@@ -9,15 +9,16 @@ module.exports = {
         brand: "#64FFDA",
         "light-gray": "#ccd6f6",
       },
-      borderColor: ["active"],
       boxShadow: {
-        "shadow-gray":
-          "0 20px 25px -5px rgba(37, 37, 37, 0.1), 0 10px 10px -5px rgba(29, 29, 29, 0.04)",
+        "shadow-gray": "0px 3px 9px 2px rgba(59,59,59,0.41)",
       },
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      margin: ["first"],
+      borderColor: ["active"],
+    },
   },
   plugins: [],
 };
