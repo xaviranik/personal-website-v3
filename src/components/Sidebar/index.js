@@ -51,12 +51,26 @@ const Sidebar = ({ isOpen, toggle }) => {
           >
             Contact
           </SidebarLink>
-          <SidebarLinkR onClick={toggle} to="/blog">
+          <SidebarLinkR
+            onClick={toggle}
+            to={{
+              pathname: "https://dev.to/xaviranik",
+            }}
+            target="_blank"
+          >
             Blog
           </SidebarLinkR>
         </SidebarMenu>
         <SidebarBtnWrap>
-          <SidebarBtnRoute to="/resume">Resume</SidebarBtnRoute>
+          <SidebarBtnRoute
+            onClick={toggle}
+            to={{
+              pathname: "https://cutt.ly/Fmke96K",
+            }}
+            target="_blank"
+          >
+            Resume
+          </SidebarBtnRoute>
         </SidebarBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

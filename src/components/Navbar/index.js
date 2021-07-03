@@ -74,7 +74,10 @@ const Navbar = ({ toggle }) => {
             <li className="h-20">
               <LinkR
                 className="flex items-center px-7 h-full text-gray-300 hover:text-brand transition duration-700 ease-in-out cursor-pointer"
-                to="/blog"
+                to={{
+                  pathname: "https://dev.to/xaviranik",
+                }}
+                target="_blank"
               >
                 Blog
               </LinkR>
@@ -82,7 +85,10 @@ const Navbar = ({ toggle }) => {
           </ul>
           <LinkR
             className="hidden md:flex border-2 border-solid border-brand px-5 py-1 text-brand rounded-md hover:bg-brand-light font-medium transition duration-1000 ease-in-out"
-            to="/resume"
+            to={{
+              pathname: "https://cutt.ly/Fmke96K",
+            }}
+            target="_blank"
           >
             Resume
           </LinkR>
