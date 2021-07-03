@@ -1,11 +1,16 @@
-import { Link } from "react-router-dom";
+import { Link as LinkS, animateScroll as scroll } from "react-scroll";
 import logo from "../../assets/xlogo.svg";
 
 const Logo = (prop) => {
+  const toggleHome = () => {
+    console.log("clicked");
+    scroll.scrollToTop();
+  };
+
   return (
-    <Link to="/">
+    <LinkS onClick={toggleHome} to="/">
       <img className={`${prop.height} logo`} src={logo} alt="Logo" />
-    </Link>
+    </LinkS>
   );
 };
 

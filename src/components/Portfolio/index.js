@@ -1,6 +1,5 @@
 import Fade from "react-reveal/Fade";
 import ProjectCard from "./ProjectCard";
-import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   return (

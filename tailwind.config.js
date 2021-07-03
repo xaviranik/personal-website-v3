@@ -7,7 +7,7 @@ module.exports = {
         navy: "#060e1a",
         "navy-light": "#081424",
         brand: "#64FFDA",
-        "brand-light": "#64ffda52",
+        "brand-light": "#64ffda45",
         "light-gray": "#ccd6f6",
       },
       boxShadow: {
