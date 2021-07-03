@@ -9,7 +9,7 @@ const SocialLinks = () => {
           <Fade bottom>
             <LinkR
               to={{
-                pathname: "",
+                pathname: "https://github.com/xaviranik/",
               }}
               target="_blank"
             >
@@ -36,7 +36,7 @@ const SocialLinks = () => {
           <Fade bottom>
             <LinkR
               to={{
-                pathname: "",
+                pathname: "https://www.linkedin.com/in/zabiranik/",
               }}
               target="_blank"
             >
@@ -65,7 +65,7 @@ const SocialLinks = () => {
           <Fade bottom>
             <LinkR
               to={{
-                pathname: "",
+                pathname: "https://twitter.com/zabiranik",
               }}
               target="_blank"
             >
