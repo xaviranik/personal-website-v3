@@ -77,7 +77,7 @@ const Portfolio = () => {
             <ProjectCard
               name="MyNUB"
               description="MyNUB is a student assistance application for organizing academics, finances and interaction with teachers"
-              tags={["Laravel", "MySQL", "Java", "REST"]}
+              tags={["Java", "Firebase"]}
               links={{
                 github: "https://github.com/xaviranik/MyNUB",
                 external: "",

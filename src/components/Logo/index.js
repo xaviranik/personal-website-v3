@@ -3,12 +3,11 @@ import logo from "../../assets/xlogo.svg";
 
 const Logo = (prop) => {
   const toggleHome = () => {
-    console.log("clicked");
     scroll.scrollToTop();
   };
 
   return (
-    <LinkS onClick={toggleHome} to="/">
+    <LinkS onClick={toggleHome} to="/" className="cursor-pointer">
       <img className={`${prop.height} logo`} src={logo} alt="Logo" />
     </LinkS>
   );
