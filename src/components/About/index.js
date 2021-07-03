@@ -42,7 +42,7 @@ const About = () => {
             </Fade>
 
             <Fade left>
-              <div className="">MySQL</div>
+              <div className="">MySQL, Firebase, MongoDB</div>
             </Fade>
 
             <Fade right>
