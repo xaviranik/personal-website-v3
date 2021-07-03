@@ -4,7 +4,7 @@ import { Link as LinkR } from "react-router-dom";
 const SocialLinks = () => {
   return (
     <div>
-      <ul className="flex items-center">
+      <ul className="flex items-center justify-center">
         <li>
           <Fade bottom>
             <LinkR
