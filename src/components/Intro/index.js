@@ -19,7 +19,7 @@ const Intro = () => {
             matter.
           </h1>
           <Link
-            className="flex border-2 border-solid border-brand px-7 py-3 text-brand rounded-md transform hover:bg-brand hover:text-navy text-xl font-medium transition duration-1000 ease-in-out mt-12 md:mt-24 md:text-xl"
+            className="flex border-2 border-solid border-brand px-7 py-3 text-brand rounded-md transform hover:bg-brand-light text-xl font-medium transition duration-1000 ease-in-out mt-12 md:mt-24 md:text-xl"
             to="/"
           >
             Let's Hear From You

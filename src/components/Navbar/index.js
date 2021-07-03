@@ -65,7 +65,7 @@ const Navbar = ({ toggle }) => {
             </li>
           </ul>
           <Link
-            className="hidden md:flex border-2 border-solid border-brand px-5 py-1 text-brand rounded-md hover:bg-brand hover:text-navy font-medium transition duration-1000 ease-in-out"
+            className="hidden md:flex border-2 border-solid border-brand px-5 py-1 text-brand rounded-md hover:bg-brand-light font-medium transition duration-1000 ease-in-out"
             to="/"
           >
             Resume
