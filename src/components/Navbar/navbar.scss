@@ -24,3 +24,11 @@ nav.scrolled {
   background-color: rgba(3, 8, 17, 0.45);
   backdrop-filter: saturate(180%) blur(19px);
 }
+
+.logo {
+  transition: transform 1s ease-in-out;
+
+  &:hover {
+    transform: scale(1.25);
+  }
+}
