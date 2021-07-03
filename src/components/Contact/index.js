@@ -27,9 +27,11 @@ const index = () => {
 
           <Fade left>
             <p className="mt-3 md:mt-4 text-gray-500 text-sm md:text-lg leading-relaxed max-w-md">
-              Feel free to share your thoughts. my inbox is always open. Whether
-              you have a question or just want to say hi, I'll try my best to
-              get back to you!
+              My inbox is open all the time. I'll make my best to catch up to
+              you, whether you have a question or just want to say hi.
+            </p>
+            <p className="mt-3 md:mt-4 text-gray-500 text-sm md:text-lg leading-relaxed max-w-md">
+              Feel free to share your thoughts.
             </p>
           </Fade>
 
