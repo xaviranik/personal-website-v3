@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom";
+import { Link as LinkS } from "react-scroll";
 import Fade from "react-reveal/Fade";
+import SocialLinks from "../SocialLinks";
 
 const Intro = () => {
   return (
@@ -18,12 +19,18 @@ const Intro = () => {
             <span className="underline-x text-gray-400">ideas</span> that
             matter.
           </h1>
-          <Link
-            className="flex border-2 border-solid border-brand px-7 py-3 text-brand rounded-md transform hover:bg-brand-light text-xl font-medium transition duration-1000 ease-in-out mt-12 md:mt-24 md:text-xl"
-            to="/"
+          <LinkS
+            className="flex border-2 border-solid border-brand px-7 py-3 text-brand rounded-md cursor-pointer transform hover:bg-brand-light text-xl font-medium transition duration-1000 ease-in-out mt-12 md:mt-24 md:text-xl"
+            to="contact"
+            smooth={true}
+            duration={1000}
+            spy={true}
+            exact="true"
+            offset={-140}
           >
             Let's Hear From You
-          </Link>
+          </LinkS>
+          <SocialLinks />
         </Fade>
       </div>
     </div>
