@@ -18,7 +18,7 @@ const index = () => {
       </div>
       <div>
         <Fade left>
-          <div className="my-8 bg-navy-light border-solid rounded-md p-5 md:p-6">
+          <div className="my-8 bg-navy-light border-solid rounded-lg p-5 md:p-6">
             <div className="text-sm text-gray-500 md:text-md">
               <h1 className="text-base font-medium text-gray-400 md:text-lg">
                 Sofware Engineer{" "}
@@ -59,7 +59,7 @@ const index = () => {
         </Fade>
 
         <Fade right>
-          <div className="my-8 bg-navy-light border-solid rounded-md p-5 md:p-6 shadow-gray">
+          <div className="my-8 bg-navy-light border-solid rounded-lg p-5 md:p-6 shadow-gray">
             <div className="text-sm text-gray-500 md:text-md">
               <h1 className="text-base font-medium text-gray-400 md:text-lg">
                 Software Engineer{" "}
