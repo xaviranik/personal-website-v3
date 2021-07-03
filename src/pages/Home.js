@@ -18,8 +18,10 @@ const Home = () => {
       <Sidebar isOpen={isOpen} toggle={toggleSidebar} />
       <Navbar toggle={toggleSidebar} />
       <Intro />
-      <About />
-      <Work />
+      <div id="about">
+        <About />
+        <Work />
+      </div>
       <Portfolio />
     </>
   );

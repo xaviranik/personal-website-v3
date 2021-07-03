@@ -35,7 +35,12 @@ const Navbar = ({ toggle }) => {
             <li className="h-20">
               <LinkS
                 className="flex items-center px-7 h-full text-gray-300 hover:text-brand transition duration-700 ease-in-out cursor-pointer"
-                to="/"
+                to="about"
+                smooth={true}
+                duration={1000}
+                spy={true}
+                exact="true"
+                offset={-140}
               >
                 About
               </LinkS>
@@ -43,7 +48,12 @@ const Navbar = ({ toggle }) => {
             <li className="h-20">
               <LinkS
                 className="flex items-center px-7 h-full text-gray-300 hover:text-brand transition duration-700 ease-in-out cursor-pointer"
-                to="/"
+                to="portfolio"
+                smooth={true}
+                duration={1000}
+                spy={true}
+                exact="true"
+                offset={-140}
               >
                 Projects
               </LinkS>
@@ -51,23 +61,28 @@ const Navbar = ({ toggle }) => {
             <li className="h-20">
               <LinkS
                 className="flex items-center px-7 h-full text-gray-300 hover:text-brand transition duration-700 ease-in-out cursor-pointer"
-                to="/"
+                to="contact"
+                smooth={true}
+                duration={1000}
+                spy={true}
+                exact="true"
+                offset={-140}
               >
                 Contact
               </LinkS>
             </li>
             <li className="h-20">
-              <LinkS
+              <LinkR
                 className="flex items-center px-7 h-full text-gray-300 hover:text-brand transition duration-700 ease-in-out cursor-pointer"
-                to="/"
+                to="/blog"
               >
                 Blog
-              </LinkS>
+              </LinkR>
             </li>
           </ul>
           <LinkR
             className="hidden md:flex border-2 border-solid border-brand px-5 py-1 text-brand rounded-md hover:bg-brand-light font-medium transition duration-1000 ease-in-out"
-            to="/"
+            to="/resume"
           >
             Resume
           </LinkR>
