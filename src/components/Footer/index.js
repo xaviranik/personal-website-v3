@@ -1,17 +1,20 @@
-import React from "react";
+import Logo from "../Logo";
 
 const Footer = () => {
   return (
     <div className="bg-navy-light p-12 text-gray-400">
       <div className="w-full m-auto max-w-screen-lg md:flex items-center justify-between">
-        <div>
-          <p className="text-sm md:text-md text-gray-500">
-            All rights reserved
-          </p>
-          <p className="text-sm md:text-md mt-2">
-            Designed & Developed by{" "}
-            <span className="text-brand animate-pulse">Zabir Anik</span>
-          </p>
+        <div className="flex items-center">
+          <Logo height="h-12" />
+          <div className="ml-4">
+            <p className="text-sm md:text-md text-gray-500">
+              All rights reserved
+            </p>
+            <p className="text-sm md:text-md mt-2">
+              Designed & Developed by{" "}
+              <span className="text-brand animate-pulse">Zabir Anik</span>
+            </p>
+          </div>
         </div>
         <div className="mt-4 md:mt-0">
           <div className="flex items-center">
