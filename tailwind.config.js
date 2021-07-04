@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         navy: "#060e1a",
         "navy-light": "#081424",
+        "navy-lightest": "#081424db",
         brand: "#64FFDA",
         "brand-light": "#64ffda45",
         "light-gray": "#ccd6f6",
