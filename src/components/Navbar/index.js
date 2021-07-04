@@ -27,7 +27,7 @@ const Navbar = ({ toggle }) => {
     >
       <Fade top>
         <div className="flex justify-between items-center h-20 z-10 w-full px-8 max-w-screen-xl">
-          <Logo height="h-8" />
+          <Logo isScrolled={navbar} height="h-8" />
           <div className="md:hidden text-2xl text-brand" onClick={toggle}>
             <HiOutlineMenuAlt1 />
           </div>

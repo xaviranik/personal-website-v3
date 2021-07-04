@@ -8,7 +8,11 @@ const Logo = (prop) => {
 
   return (
     <LinkS onClick={toggleHome} to="/" className="cursor-pointer">
-      <img className={`${prop.height} logo`} src={logo} alt="Logo" />
+      <img
+        className={`${prop.height} logo ${prop.isScrolled && "scrolled"}`}
+        src={logo}
+        alt="Logo"
+      />
     </LinkS>
   );
 };
