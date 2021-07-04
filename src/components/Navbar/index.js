@@ -84,7 +84,7 @@ const Navbar = ({ toggle }) => {
             </li>
           </ul>
           <LinkR
-            className="hidden md:flex border-2 border-solid border-brand px-5 py-1 text-brand rounded-md hover:bg-brand-light font-medium transition duration-1000 ease-in-out"
+            className="hidden md:flex border-2 border-solid border-brand px-5 py-1 text-brand rounded-md hover:bg-brand-light font-medium transition duration-700 ease-in-out"
             to={{
               pathname: "https://cutt.ly/Fmke96K",
             }}
