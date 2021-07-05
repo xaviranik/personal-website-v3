@@ -20,27 +20,37 @@ const ImageSlider = ({ slides }) => {
   }
 
   return (
-    <div className="slider">
-      <FiArrowLeftCircle
-        className="left-arrow text-brand-light hover:text-brand transition duration-500 ease-in"
-        onClick={prevSlide}
-      />
-      <FiArrowRightCircle
-        className="right-arrow text-brand-light hover:text-brand transition duration-500 ease-in"
-        onClick={nextSlide}
-      />
-      {SliderData.map((slide, index) => {
-        return (
-          <div
-            className={index === current ? "slide active" : "slide"}
-            key={index}
-          >
-            {index === current && (
-              <img src={slide.image} alt="travel" className="image" />
-            )}
-          </div>
-        );
-      })}
+    <div className="w-full m-auto text-gray-300">
+      <div className="flex flex-col h-screen justify-center items-center">
+        <FiArrowLeftCircle
+          className="left-arrow text-brand-light hover:text-brand transition duration-500 ease-in"
+          onClick={prevSlide}
+        />
+        <FiArrowRightCircle
+          className="right-arrow text-brand-light hover:text-brand transition duration-500 ease-in"
+          onClick={nextSlide}
+        />
+        {SliderData.map((slide, index) => {
+          return (
+            <div
+              className={
+                index === current
+                  ? "slide active flex items-center justify-center"
+                  : "slide"
+              }
+              key={index}
+            >
+              {index === current && (
+                <img
+                  src={slide.image}
+                  alt="travel"
+                  className="image md:h-2/3"
+                />
+              )}
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 };
