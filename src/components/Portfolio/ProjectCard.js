@@ -21,7 +21,7 @@ const ProjectCard = ({ name, description, tags, links }) => {
             />
           </svg>
           <div className="text-gray-400 flex items-center">
-            <ProjectPopup />
+            <ProjectPopup name={name} />
             {links.github && (
               <Link
                 to={{

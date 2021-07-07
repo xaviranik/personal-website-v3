@@ -22,8 +22,8 @@ const Portfolio = () => {
               description="Project Management Application for task managements and collaboration"
               tags={["Laravel", "MySQL", "Vue.js", "Heroku"]}
               links={{
-                external: "http://ggcurlycamp.herokuapp.com/",
                 github: "https://github.com/xaviranik/curlycamp",
+                external: "http://ggcurlycamp.herokuapp.com/",
               }}
             />
           </Fade>
@@ -35,7 +35,7 @@ const Portfolio = () => {
               tags={["Laravel", "MySQL", "Heroku"]}
               links={{
                 github: "https://github.com/xaviranik/laravel-discussion-forum",
-                external: "http://ggdevvit.herokuapp.com/",
+                external: "",
               }}
             />
           </Fade>

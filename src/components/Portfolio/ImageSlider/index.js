@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { SliderData } from "./SliderData";
 import { FiArrowLeftCircle, FiArrowRightCircle } from "react-icons/fi";
 import "./imageSlider.scss";
 
@@ -30,7 +29,7 @@ const ImageSlider = ({ slides }) => {
           className="right-arrow text-brand-light hover:text-brand transition duration-500 ease-in"
           onClick={nextSlide}
         />
-        {SliderData.map((slide, index) => {
+        {slides.map((slide, index) => {
           return (
             <div
               className={
@@ -43,7 +42,7 @@ const ImageSlider = ({ slides }) => {
               {index === current && (
                 <img
                   src={slide.image}
-                  alt="travel"
+                  alt="project-images"
                   className="image md:h-2/3"
                 />
               )}
