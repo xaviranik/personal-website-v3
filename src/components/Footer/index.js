@@ -5,8 +5,8 @@ const Footer = () => {
     <div className="bg-navy-light p-12 text-gray-400">
       <div className="w-full m-auto max-w-screen-lg md:flex items-center justify-between">
         <div className="flex items-center">
-          <Logo height="h-12" />
-          <div className="ml-4">
+          <Logo height="h-12 hidden md:block" />
+          <div className="md:ml-4">
             <p className="text-sm md:text-md text-gray-500">
               All rights reserved
             </p>
