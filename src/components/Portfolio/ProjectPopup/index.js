@@ -1,12 +1,12 @@
 import Popup from "reactjs-popup";
-import { SliderData } from "../ImageSlider/SliderData";
+import { ProjectData } from "../data/ProjectData";
 import ImageSlider from "../ImageSlider";
 
 const ProjectPopup = ({ name }) => {
   const getProjectSliderImages = () => {
     let images = [];
-    SliderData.forEach((data) => {
-      if (data.project === name) {
+    ProjectData.forEach((data) => {
+      if (data.name === name) {
         images = data.images;
       }
     });
