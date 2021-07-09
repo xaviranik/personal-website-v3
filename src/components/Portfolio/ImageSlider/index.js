@@ -43,7 +43,7 @@ const ImageSlider = ({ slides }) => {
                 <img
                   src={slide.image}
                   alt="project-images"
-                  className="image md:h-2/3"
+                  className="image md:h-5/6"
                 />
               )}
             </div>
