@@ -113,4 +113,60 @@ export const ProjectData = [
     },
     images: [],
   },
+  {
+    name: "Shoot Out Loud",
+    category: "Game Dev",
+    thumbnail:
+      "https://www.wrike.com/professional-services-guide/uploads/project-management-guide/b9bcc9bd-ae90-4d81-9214-9f0d69267f62/3-introducing-project-management-tools-thumbnail.png?auto=compress%2Cformat&dpr=1&fit=min&fm=jpg&q=60&rect=%2C%2C%2C",
+    description:
+      "Project Management Application for task managements and collaboration",
+    tags: ["C#", "Unity"],
+    links: {
+      github: "https://github.com/xaviranik/curlycamp",
+      external: "http://ggcurlycamp.herokuapp.com/",
+    },
+    images: [],
+  },
+  {
+    name: "Pinem' All",
+    category: "Game Dev",
+    thumbnail:
+      "https://www.wrike.com/professional-services-guide/uploads/project-management-guide/b9bcc9bd-ae90-4d81-9214-9f0d69267f62/3-introducing-project-management-tools-thumbnail.png?auto=compress%2Cformat&dpr=1&fit=min&fm=jpg&q=60&rect=%2C%2C%2C",
+    description:
+      "Project Management Application for task managements and collaboration",
+    tags: ["C#", "Unity"],
+    links: {
+      github: "https://github.com/xaviranik/curlycamp",
+      external: "http://ggcurlycamp.herokuapp.com/",
+    },
+    images: [],
+  },
+  {
+    name: "Youtube Redesigned",
+    category: "Design",
+    thumbnail:
+      "https://www.wrike.com/professional-services-guide/uploads/project-management-guide/b9bcc9bd-ae90-4d81-9214-9f0d69267f62/3-introducing-project-management-tools-thumbnail.png?auto=compress%2Cformat&dpr=1&fit=min&fm=jpg&q=60&rect=%2C%2C%2C",
+    description:
+      "Project Management Application for task managements and collaboration",
+    tags: ["Vue.js", "Tailwind CSS"],
+    links: {
+      github: "https://github.com/xaviranik/curlycamp",
+      external: "http://ggcurlycamp.herokuapp.com/",
+    },
+    images: [],
+  },
+  {
+    name: "Aidrock",
+    category: "Design",
+    thumbnail:
+      "https://www.wrike.com/professional-services-guide/uploads/project-management-guide/b9bcc9bd-ae90-4d81-9214-9f0d69267f62/3-introducing-project-management-tools-thumbnail.png?auto=compress%2Cformat&dpr=1&fit=min&fm=jpg&q=60&rect=%2C%2C%2C",
+    description:
+      "Project Management Application for task managements and collaboration",
+    tags: ["Vue.js", "Tailwind CSS"],
+    links: {
+      github: "https://github.com/xaviranik/aidrock",
+      external: "",
+    },
+    images: [],
+  },
 ];
