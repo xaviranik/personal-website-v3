@@ -15,15 +15,32 @@ const Portfolio = () => {
       id="portfolio"
       className="w-full m-auto max-w-screen-lg text-left px-8 mt-32"
     >
-      <div className="section-heading">
+      <div>
         <Fade bottom>
           <h1 className="text-gray-300 text-2xl font-medium underline-x md:inline-block md:text-3xl">
             Projects
           </h1>
         </Fade>
+        <ul className="hidden md:flex items-center mt-6">
+          <li className="text-brand cursor-pointer opacity-100 hover:opacity-100 transition-opacity duration-700 ease-out px-4 py-1 bg-brand-light rounded-lg">
+            All
+          </li>
+          <li className="text-brand cursor-pointer opacity-40 hover:opacity-100 transition-opacity duration-700 ease-out px-4 py-1 bg-brand-light ml-3 rounded-lg">
+            Full Stack
+          </li>
+          <li className="text-brand cursor-pointer opacity-40 hover:opacity-100 transition-opacity duration-700 ease-out px-4 py-1 bg-brand-light ml-3 rounded-lg">
+            Design
+          </li>
+          <li className="text-brand cursor-pointer opacity-40 hover:opacity-100 transition-opacity duration-700 ease-out px-4 py-1 bg-brand-light ml-3 rounded-lg">
+            Game Dev
+          </li>
+          <li className="text-brand cursor-pointer opacity-40 hover:opacity-100 transition-opacity duration-700 ease-out px-4 py-1 bg-brand-light ml-3 rounded-lg">
+            Others
+          </li>
+        </ul>
       </div>
       <div>
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 my-8">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 my-10">
           <Projects projects={projects} showMore={showMoreProjects} />
         </div>
 
