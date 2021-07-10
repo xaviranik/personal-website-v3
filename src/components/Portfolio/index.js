@@ -5,6 +5,7 @@ import Projects from "./Projects";
 
 const Portfolio = () => {
   const [showMoreProjectsButton, setShowMoreProjectsButton] = useState(true);
+  const [projectsToShow, setProjectsToShow] = useState(4);
   const [currentProjects, setCurrentProjects] = useState(projects);
   const [activeFilter, setActiveFilter] = useState("All");
   const [filterCatorgies, setfilterCatorgies] = useState([
@@ -27,7 +28,9 @@ const Portfolio = () => {
       });
     }
 
-    setShowMoreProjectsButton(filteredProjects.length > 4 ? true : false);
+    setShowMoreProjectsButton(
+      filteredProjects.length > projectsToShow ? true : false
+    );
     setActiveFilter(category);
     setCurrentProjects(filteredProjects);
   };
@@ -63,6 +66,7 @@ const Portfolio = () => {
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 my-10">
           <Projects
             projects={currentProjects}
+            projectsToShow={projectsToShow}
             showMore={showMoreProjectsButton}
           />
         </div>
