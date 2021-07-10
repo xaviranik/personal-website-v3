@@ -7,8 +7,13 @@ const Portfolio = () => {
   const [showMoreProjectsButton, setShowMoreProjectsButton] = useState(true);
   const [currentProjects, setCurrentProjects] = useState(projects);
   const [activeFilter, setActiveFilter] = useState("All");
-
-  const filterCatorgies = ["All", "Full Stack", "Design", "Game Dev", "Others"];
+  const [filterCatorgies, setfilterCatorgies] = useState([
+    "All",
+    "Full Stack",
+    "Design",
+    "Game Dev",
+    "Others",
+  ]);
 
   const handleClick = () => {
     setShowMoreProjectsButton(false);
@@ -22,6 +27,7 @@ const Portfolio = () => {
       });
     }
 
+    setShowMoreProjectsButton(filteredProjects.length > 4 ? true : false);
     setActiveFilter(category);
     setCurrentProjects(filteredProjects);
   };
