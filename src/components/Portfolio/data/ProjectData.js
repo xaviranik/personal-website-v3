@@ -1,6 +1,7 @@
 export const ProjectData = [
   {
     name: "CurlyCamp",
+    category: "Full Stack",
     thumbnail:
       "https://www.wrike.com/professional-services-guide/uploads/project-management-guide/b9bcc9bd-ae90-4d81-9214-9f0d69267f62/3-introducing-project-management-tools-thumbnail.png?auto=compress%2Cformat&dpr=1&fit=min&fm=jpg&q=60&rect=%2C%2C%2C",
     description:
@@ -24,6 +25,7 @@ export const ProjectData = [
   },
   {
     name: "Devvit",
+    category: "Full Stack",
     thumbnail:
       "https://www.wrike.com/professional-services-guide/uploads/project-management-guide/b9bcc9bd-ae90-4d81-9214-9f0d69267f62/3-introducing-project-management-tools-thumbnail.png?auto=compress%2Cformat&dpr=1&fit=min&fm=jpg&q=60&rect=%2C%2C%2C",
     description:
@@ -47,6 +49,7 @@ export const ProjectData = [
   },
   {
     name: "Lifehacks",
+    category: "Full Stack",
     thumbnail:
       "https://www.wrike.com/professional-services-guide/uploads/project-management-guide/b9bcc9bd-ae90-4d81-9214-9f0d69267f62/3-introducing-project-management-tools-thumbnail.png?auto=compress%2Cformat&dpr=1&fit=min&fm=jpg&q=60&rect=%2C%2C%2C",
     description:
@@ -70,6 +73,7 @@ export const ProjectData = [
   },
   {
     name: "Larademy",
+    category: "Full Stack",
     thumbnail:
       "https://www.wrike.com/professional-services-guide/uploads/project-management-guide/b9bcc9bd-ae90-4d81-9214-9f0d69267f62/3-introducing-project-management-tools-thumbnail.png?auto=compress%2Cformat&dpr=1&fit=min&fm=jpg&q=60&rect=%2C%2C%2C",
     description:
@@ -83,6 +87,21 @@ export const ProjectData = [
   },
   {
     name: "WellBeing Pharmacy",
+    category: "Others",
+    thumbnail:
+      "https://www.wrike.com/professional-services-guide/uploads/project-management-guide/b9bcc9bd-ae90-4d81-9214-9f0d69267f62/3-introducing-project-management-tools-thumbnail.png?auto=compress%2Cformat&dpr=1&fit=min&fm=jpg&q=60&rect=%2C%2C%2C",
+    description:
+      "Project Management Application for task managements and collaboration",
+    tags: ["Laravel", "MySQL", "Vue.js", "Heroku"],
+    links: {
+      github: "https://github.com/xaviranik/curlycamp",
+      external: "http://ggcurlycamp.herokuapp.com/",
+    },
+    images: [],
+  },
+  {
+    name: "MyNUB",
+    category: "Others",
     thumbnail:
       "https://www.wrike.com/professional-services-guide/uploads/project-management-guide/b9bcc9bd-ae90-4d81-9214-9f0d69267f62/3-introducing-project-management-tools-thumbnail.png?auto=compress%2Cformat&dpr=1&fit=min&fm=jpg&q=60&rect=%2C%2C%2C",
     description:
