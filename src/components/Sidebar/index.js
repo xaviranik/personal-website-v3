@@ -47,7 +47,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             duration={1000}
             spy={true}
             exact="true"
-            offset={-140}
+            offset={-90}
           >
             Contact
           </SidebarLink>
