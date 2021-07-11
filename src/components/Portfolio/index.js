@@ -32,7 +32,10 @@ const Portfolio = () => {
       filteredProjects.length > projectsToShow ? true : false
     );
     setActiveFilter(category);
-    setCurrentProjects(filteredProjects);
+    setCurrentProjects([]);
+    setTimeout(() => {
+      setCurrentProjects(filteredProjects);
+    }, 1);
   };
 
   return (

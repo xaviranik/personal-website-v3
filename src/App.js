@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./app.scss";
-import Resume from "./pages/Resume";
+import Blog from "./pages/Blog";
 import Home from "./pages/Home";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <Router>
         <Switch>
           <Route path="/" component={Home} exact />
-          <Route path="/resume" component={Resume} exact />
+          <Route path="/blog" component={Blog} exact />
         </Switch>
       </Router>
     </>

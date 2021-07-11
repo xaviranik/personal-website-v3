@@ -11,7 +11,7 @@ const Projects = ({ projects, showMore, projectsToShow }) => {
     <>
       {projects.slice(0, numberOfProjects).map((project, index) => {
         return isEven(index) ? (
-          <Fade left key={index}>
+          <Fade reveal left key={index}>
             <ProjectCard
               thumbnail={project.thumbnail}
               name={project.name}
@@ -21,7 +21,7 @@ const Projects = ({ projects, showMore, projectsToShow }) => {
             />
           </Fade>
         ) : (
-          <Fade right key={index}>
+          <Fade reveal right key={index}>
             <ProjectCard
               thumbnail={project.thumbnail}
               name={project.name}

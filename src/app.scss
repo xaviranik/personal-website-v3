@@ -153,23 +153,25 @@ body::-webkit-scrollbar-thumb {
   outline: 1px solid #060e1a;
 }
 
-.font-mono {
-  font-family: "Fira Mono";
-}
+#home {
+  .font-mono {
+    font-family: "Fira Mono";
+  }
 
-.underline-x {
-  background-image: linear-gradient(120deg, #64ffdb75 0%, #64ffdb38 100%);
-  background-repeat: no-repeat;
-  background-size: 100% 0.15em;
-  background-position: 0 78%;
-  -webkit-transition: all 0.7s ease-in-out;
-  transition: all 0.7s ease-in-out;
+  .underline-x {
+    background-image: linear-gradient(120deg, #64ffdb75 0%, #64ffdb38 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.15em;
+    background-position: 0 78%;
+    -webkit-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
 
-  &:hover {
-    color: #64ffda;
-    text-shadow: 0 0 1px #64ffda, 0 0 2px #64ffda, 0 0 4px #64ffda,
-      0 0 12px #64ffda, 0 0 20px #64ffda;
-    background-size: 100% 88%;
-    cursor: pointer;
+    &:hover {
+      color: #64ffda;
+      text-shadow: 0 0 1px #64ffda, 0 0 2px #64ffda, 0 0 4px #64ffda,
+        0 0 12px #64ffda, 0 0 20px #64ffda;
+      background-size: 100% 88%;
+      cursor: pointer;
+    }
   }
 }
