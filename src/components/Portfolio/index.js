@@ -49,7 +49,7 @@ const Portfolio = () => {
             Projects
           </h1>
         </Fade>
-        <ul className="hidden md:flex items-center mt-6">
+        <ul className="hidden md:flex items-center justify-end mt-6">
           {filterCatorgies.map((filter, index) => {
             return (
               <li
