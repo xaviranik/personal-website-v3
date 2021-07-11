@@ -16,7 +16,7 @@ const Home = () => {
   };
 
   return (
-    <>
+    <div id="home">
       <Sidebar isOpen={isOpen} toggle={toggleSidebar} />
       <Navbar toggle={toggleSidebar} />
       <Intro />
@@ -27,7 +27,7 @@ const Home = () => {
       <Portfolio />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 };
 
