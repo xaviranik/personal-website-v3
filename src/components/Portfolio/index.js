@@ -64,6 +64,42 @@ const Portfolio = () => {
             );
           })}
         </ul>
+        <div className="md:hidden flex items-center justify-between mt-6">
+          <div className="px-3 py-2 border border-solid border-brand border-opacity-30 opacity-30 rounded-lg">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 text-brand"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"
+              />
+            </svg>
+          </div>
+          <select
+            onChange={() => filterProjects(activeFilter)}
+            defaultValue={activeFilter}
+            className="ml-2 relative appearance-none text-brand w-full bg-navy-light border border-navy hover:border-brand px-4 py-3 rounded-lg leading-tight focus:outline-none focus:shadow-outline"
+          >
+            {filterCatorgies.map((filter, index) => {
+              return (
+                <option
+                  onChange={() => setActiveFilter(filter)}
+                  value={filter}
+                  key={index}
+                  className="rounded-lg"
+                >
+                  {filter}
+                </option>
+              );
+            })}
+          </select>
+        </div>
       </div>
       <div>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 my-10">
@@ -79,7 +115,7 @@ const Portfolio = () => {
             {showMoreProjectsButton && (
               <button
                 onClick={handleClick}
-                className="inline-block border-2 border-solid border-brand px-5 py-3 text-brand rounded-md cursor-pointer transform hover:bg-brand-light text-md font-medium transition duration-700 ease-in-out mt-12 md:mt-24 md:text-xl"
+                className="inline-block border-2 border-solid border-brand px-5 py-3 text-brand rounded-lg cursor-pointer transform hover:bg-brand-light text-md font-medium transition duration-700 ease-in-out mt-12 md:mt-24 md:text-xl"
               >
                 Show More
               </button>
