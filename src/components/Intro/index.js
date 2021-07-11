@@ -20,13 +20,13 @@ const Intro = () => {
             matter.
           </h1>
           <LinkS
-            className="flex border-2 border-solid border-brand px-7 py-3 text-brand rounded-md cursor-pointer transform hover:bg-brand-light text-md font-medium transition duration-700 ease-in-out mt-12 md:mt-24 md:text-xl"
+            className="flex border-2 border-solid border-brand px-7 py-3 text-brand rounded-lg cursor-pointer transform hover:bg-brand-light text-md font-medium transition duration-700 ease-in-out mt-12 md:mt-24 md:text-xl"
             to="contact"
             smooth={true}
             duration={1000}
             spy={true}
             exact="true"
-            offset={-140}
+            offset={-60}
           >
             Let's Hear From You
           </LinkS>
