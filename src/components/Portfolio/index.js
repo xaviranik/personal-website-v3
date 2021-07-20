@@ -82,18 +82,13 @@ const Portfolio = () => {
             </svg>
           </div>
           <select
-            onChange={() => filterProjects(activeFilter)}
+            onChange={(event) => filterProjects(event.target.value)}
             defaultValue={activeFilter}
             className="ml-2 relative appearance-none text-brand w-full bg-navy-light border border-navy hover:border-brand px-4 py-3 rounded-lg leading-tight focus:outline-none focus:shadow-outline"
           >
             {filterCatorgies.map((filter, index) => {
               return (
-                <option
-                  onChange={() => setActiveFilter(filter)}
-                  value={filter}
-                  key={index}
-                  className="rounded-lg"
-                >
+                <option value={filter} key={index} className="rounded-lg">
                   {filter}
                 </option>
               );
