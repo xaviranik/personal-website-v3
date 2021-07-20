@@ -7,7 +7,7 @@ const Intro = () => {
     <div className="w-full m-auto max-w-screen-lg text-gray-300">
       <div className="flex flex-col h-screen justify-center items-center -mt-20 px-8">
         <Fade bottom>
-          <h1 className="text-brand text-sm md:text-xl mt-8 font-mono">
+          <h1 className="text-brand text-sm md:text-xl font-mono mt-20">
             Hello, World
           </h1>
           <h1 className="text-4xl text-gray-300 font-semibold mt-4 md:text-7xl md:mt-8">
