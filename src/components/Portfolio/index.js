@@ -5,9 +5,11 @@ import Projects from "./Projects";
 
 const Portfolio = () => {
   const [showMoreProjectsButton, setShowMoreProjectsButton] = useState(true);
+  // eslint-disable-next-line
   const [projectsToShow, setProjectsToShow] = useState(4);
   const [currentProjects, setCurrentProjects] = useState(projects);
   const [activeFilter, setActiveFilter] = useState("All");
+  // eslint-disable-next-line
   const [filterCatorgies, setfilterCatorgies] = useState([
     "All",
     "Full Stack",
