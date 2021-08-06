@@ -11,11 +11,12 @@ const ProjectCard = ({ thumbnail, name, description, tags, links }) => {
           }}
           target="_blank"
         >
-          <img
-            className="rounded-md transition-transform duration-700 ease-out transform hover:scale-105"
-            src={thumbnail}
-            alt={`${name}-thumbnail`}
-          />
+          <div
+            className="flex h-60 md:h-72 rounded-md transition-transform duration-700 ease-out transform hover:scale-105 bg-brand bg-no-repeat bg-cover select-none"
+            style={{ backgroundImage: `url(${thumbnail})` }}
+          >
+            <div className="flex h-full w-full rounded-md bg-brand bg-opacity-40 hover:bg-opacity-0 transition duration-700 ease-out"></div>
+          </div>
         </Link>
         <div className="flex items-center justify-between text-brand mt-10">
           <h1 className="text-gray-400 font-medium text-lg md:text-xl hover:text-brand transition duration-700">
@@ -74,7 +75,7 @@ const ProjectCard = ({ thumbnail, name, description, tags, links }) => {
           <div className="text-gray-500">
             <p className="text-sm mt-3 leading-relaxed">{description}</p>
           </div>
-          <div className="font-mono text-brand opacity-80 text-sm mt-6 animate-pulse">
+          <div className="font-mono text-brand opacity-80 text-xs md:text-sm mt-6 animate-pulse">
             <ul className="flex items-center">
               {tags.map((tag, key) => {
                 return (
