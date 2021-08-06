@@ -123,9 +123,9 @@ const index = () => {
                   code for a diverse array of client and internal projects
                 </li>
                 <li className="relative pl-5 mt-3 md:mt-4">
-                  Oversaw and Collaborated with a small team of fellow
+                  Oversaw and collaborated with a small team of fellow
                   freelancers devs to spearhead technical requirements for
-                  client specified requirements
+                  client - specified requirements
                 </li>
               </ul>
             </div>

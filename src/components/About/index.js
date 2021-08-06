@@ -28,13 +28,13 @@ const About = () => {
               <div className="">PHP</div>
             </Fade>
             <Fade right>
-              <div className="">Laravel, Node, Express</div>
+              <div className="">Laravel</div>
             </Fade>
             <Fade left>
               <div className="">Javascript</div>
             </Fade>
             <Fade right>
-              <div className="">React</div>
+              <div className="">React, Node, Express</div>
             </Fade>
             <Fade left>
               <div className="">MySQL, Firebase, MongoDB</div>
