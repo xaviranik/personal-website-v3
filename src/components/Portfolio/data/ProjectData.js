@@ -1,7 +1,34 @@
 export const ProjectData = [{
+    name: "Larademy",
+    category: "Full Stack",
+    thumbnail: "https://i.postimg.cc/tJGBK2RP/larademy-1.png",
+    description: "An online platform for learning as well as creating courses for others to enroll",
+    tags: ["Laravel", "MySQL", "Vue.js", "Redis", "Heroku"],
+    links: {
+      github: "https://github.com/xaviranik/larademy",
+      external: "",
+    },
+    images: [{
+        image: "https://i.postimg.cc/tJGBK2RP/larademy-1.png"
+      },
+      {
+        image: "https://i.postimg.cc/dtvWnHxc/larademy-2.png"
+      },
+      {
+        image: "https://i.postimg.cc/RCws75GT/larademy-3.png"
+      },
+      {
+        image: "https://i.postimg.cc/28w0tQsb/larademy-4.png"
+      },
+      {
+        image: "https://i.postimg.cc/Kj70xB4W/larademy-5.png"
+      }
+    ],
+  },
+  {
     name: "CurlyCamp",
     category: "Full Stack",
-    thumbnail: "https://www.wrike.com/professional-services-guide/uploads/project-management-guide/b9bcc9bd-ae90-4d81-9214-9f0d69267f62/3-introducing-project-management-tools-thumbnail.png?auto=compress%2Cformat&dpr=1&fit=min&fm=jpg&q=60&rect=%2C%2C%2C",
+    thumbnail: "https://i.postimg.cc/tRVg0V7M/curlycamp-1.png",
     description: "Project Management Application for task managements and collaboration",
     tags: ["Laravel", "MySQL", "Vue.js", "Heroku"],
     links: {
@@ -22,7 +49,7 @@ export const ProjectData = [{
   {
     name: "Devvit",
     category: "Full Stack",
-    thumbnail: "https://www.wrike.com/professional-services-guide/uploads/project-management-guide/b9bcc9bd-ae90-4d81-9214-9f0d69267f62/3-introducing-project-management-tools-thumbnail.png?auto=compress%2Cformat&dpr=1&fit=min&fm=jpg&q=60&rect=%2C%2C%2C",
+    thumbnail: "https://i.postimg.cc/pTz3CxXq/devvit-1.png",
     description: "Forum application for developers where group discussions are based on channels / topics",
     tags: ["Laravel", "MySQL", "Heroku"],
     links: {
@@ -43,7 +70,7 @@ export const ProjectData = [{
   {
     name: "Lifehacks",
     category: "Full Stack",
-    thumbnail: "https://www.wrike.com/professional-services-guide/uploads/project-management-guide/b9bcc9bd-ae90-4d81-9214-9f0d69267f62/3-introducing-project-management-tools-thumbnail.png?auto=compress%2Cformat&dpr=1&fit=min&fm=jpg&q=60&rect=%2C%2C%2C",
+    thumbnail: "https://i.postimg.cc/Hsy8thQj/lifehacks-1.png",
     description: "A one stop blogging platform",
     tags: ["Laravel", "MySQL", "Heroku"],
     links: {
@@ -62,18 +89,6 @@ export const ProjectData = [{
     ],
   },
   {
-    name: "Larademy",
-    category: "Full Stack",
-    thumbnail: "https://www.wrike.com/professional-services-guide/uploads/project-management-guide/b9bcc9bd-ae90-4d81-9214-9f0d69267f62/3-introducing-project-management-tools-thumbnail.png?auto=compress%2Cformat&dpr=1&fit=min&fm=jpg&q=60&rect=%2C%2C%2C",
-    description: "An online platform for learning as well as creating courses for others to enroll",
-    tags: ["Laravel", "MySQL", "Vue.js", "Redis", "Heroku"],
-    links: {
-      github: "https://github.com/xaviranik/larademy",
-      external: "",
-    },
-    images: [],
-  },
-  {
     name: "WellBeing",
     category: "Others",
     thumbnail: "https://www.wrike.com/professional-services-guide/uploads/project-management-guide/b9bcc9bd-ae90-4d81-9214-9f0d69267f62/3-introducing-project-management-tools-thumbnail.png?auto=compress%2Cformat&dpr=1&fit=min&fm=jpg&q=60&rect=%2C%2C%2C",
@@ -90,7 +105,7 @@ export const ProjectData = [{
     category: "Others",
     thumbnail: "https://www.wrike.com/professional-services-guide/uploads/project-management-guide/b9bcc9bd-ae90-4d81-9214-9f0d69267f62/3-introducing-project-management-tools-thumbnail.png?auto=compress%2Cformat&dpr=1&fit=min&fm=jpg&q=60&rect=%2C%2C%2C",
     description: "A student assistance application for organizing academics, finances and interaction with teachers",
-    tags: ["Laravel", "MySQL", "Vue.js", "Heroku"],
+    tags: ["Firebase", "Java"],
     links: {
       github: "https://github.com/xaviranik/MyNUB",
       external: "",
