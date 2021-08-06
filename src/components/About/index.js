@@ -19,32 +19,26 @@ const About = () => {
             grew a devotion to the products that actually solve the problems.
           </p>
         </Fade>
-
         <div className="mt-4 md:mt-6">
           <Fade bottom>
-            <p>Here are a few technologies I've been working with recently:</p>
+            <p> Here are some technologies I have been working with lately:</p>
           </Fade>
           <div className="grid grid-cols-2 gap-4 mt-4 font-mono text-brand opacity-75 md:text-sm animate-pulse">
             <Fade left>
               <div className="">PHP</div>
             </Fade>
-
             <Fade right>
-              <div className="">Laravel</div>
+              <div className="">Laravel, Node, Express</div>
             </Fade>
-
             <Fade left>
               <div className="">Javascript</div>
             </Fade>
-
             <Fade right>
               <div className="">React</div>
             </Fade>
-
             <Fade left>
               <div className="">MySQL, Firebase, MongoDB</div>
             </Fade>
-
             <Fade right>
               <div className="">Wordpress Plugin Development</div>
             </Fade>

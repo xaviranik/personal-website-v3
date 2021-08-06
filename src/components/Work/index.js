@@ -21,7 +21,7 @@ const index = () => {
           <div className="my-8 bg-navy-light border-solid rounded-lg p-5 md:p-6">
             <div className="text-sm text-gray-500 md:text-md">
               <h1 className="text-base font-medium text-gray-400 md:text-lg">
-                Sofware Engineer{" "}
+                Software Engineer{" "}
                 <span className="text-brand opacity-90 animate-pulse">
                   <Link
                     to={{
@@ -89,7 +89,7 @@ const index = () => {
                 </li>
                 <li className="relative pl-5 mt-3 md:mt-4">
                   Conceptualized system architecture, designed, assembled
-                  Laravel backend to consolidate business requirements.
+                  Laravel backend to consolidate business requirements
                 </li>
                 <li className="relative pl-5 mt-3 md:mt-4">
                   Implemented, optimized REST APIs, integrated live sync with
@@ -98,6 +98,34 @@ const index = () => {
                 <li className="relative pl-5 mt-3 md:mt-4">
                   Established a Live notification system and user-centric
                   customized payment gateway
+                </li>
+              </ul>
+            </div>
+          </div>
+        </Fade>
+
+        <Fade left>
+          <div className="my-8 bg-navy-light border-solid rounded-lg p-5 md:p-6">
+            <div className="text-sm text-gray-500 md:text-md">
+              <h1 className="text-base font-medium text-gray-400 md:text-lg">
+                Freelancer{" "}
+                <span className="text-brand opacity-90 animate-pulse">
+                  @ Marketplaces
+                </span>
+              </h1>
+              <h2 className="mt-1 text-gray-400">
+                {" "}
+                April 2018 - September 2019{" "}
+              </h2>
+              <ul className="leading-relaxed mt-6">
+                <li className="relative pl-5 mt-3 md:mt-4">
+                  Architected and implemented modern, performant, maintainable
+                  code for a diverse array of client and internal projects
+                </li>
+                <li className="relative pl-5 mt-3 md:mt-4">
+                  Oversaw and Collaborated with a small team of fellow
+                  freelancers devs to spearhead technical requirements for
+                  client specified requirements
                 </li>
               </ul>
             </div>
