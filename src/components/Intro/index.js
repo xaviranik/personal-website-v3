@@ -1,10 +1,16 @@
 import { Link as LinkS } from "react-scroll";
 import Fade from "react-reveal/Fade";
 import SocialLinks from "../SocialLinks";
+import Particles from "react-particles-js";
+import { ParticleConfig } from "./ParticleConfig";
 
 const Intro = () => {
   return (
     <div className="w-full m-auto max-w-screen-lg text-gray-300">
+      <Particles
+        className="w-full h-screen fixed -z-10 top-0 left-0 block"
+        params={ParticleConfig}
+      />
       <div className="flex flex-col h-screen justify-center items-center -mt-20 px-8">
         <Fade bottom>
           <h1 className="text-brand text-sm md:text-xl font-mono mt-20">
