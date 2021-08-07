@@ -29,7 +29,7 @@ export const ProjectData = [{
     name: "CurlyCamp",
     category: "Full Stack",
     thumbnail: "https://i.postimg.cc/tRVg0V7M/curlycamp-1.png",
-    description: "Project Management Application for task managements and collaboration",
+    description: "Project Management Application for task managements and team collaboration",
     tags: ["Laravel", "MySQL", "Vue.js", "Heroku"],
     links: {
       github: "https://github.com/xaviranik/curlycamp",
@@ -71,7 +71,7 @@ export const ProjectData = [{
     name: "Lifehacks",
     category: "Full Stack",
     thumbnail: "https://i.postimg.cc/Hsy8thQj/lifehacks-1.png",
-    description: "A one stop blogging platform",
+    description: "A one stop blogging platform with full-fledged community driven system",
     tags: ["Laravel", "MySQL", "Heroku"],
     links: {
       github: "https://github.com/xaviranik/laravel-blog",
