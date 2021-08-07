@@ -31,10 +31,10 @@ const Navbar = ({ toggle }) => {
           <div className="md:hidden text-2xl text-brand" onClick={toggle}>
             <HiOutlineMenuAlt1 />
           </div>
-          <ul className="hidden md:flex items-center list-none text-md font-medium text-center -mr-5">
+          <ul className="hidden md:flex items-center list-none text-md font-medium text-center -mr-10">
             <li className="h-20">
               <LinkS
-                className="flex items-center px-7 h-full text-gray-300 hover:text-brand transition duration-700 ease-in-out cursor-pointer"
+                className="flex items-center px-10 h-full text-gray-300 hover:text-brand transition duration-700 ease-in-out cursor-pointer"
                 to="about"
                 smooth={true}
                 duration={1000}
@@ -47,7 +47,7 @@ const Navbar = ({ toggle }) => {
             </li>
             <li className="h-20">
               <LinkS
-                className="flex items-center px-7 h-full text-gray-300 hover:text-brand transition duration-700 ease-in-out cursor-pointer"
+                className="flex items-center px-10 h-full text-gray-300 hover:text-brand transition duration-700 ease-in-out cursor-pointer"
                 to="portfolio"
                 smooth={true}
                 duration={1000}
@@ -60,7 +60,7 @@ const Navbar = ({ toggle }) => {
             </li>
             <li className="h-20">
               <LinkS
-                className="flex items-center px-7 h-full text-gray-300 hover:text-brand transition duration-700 ease-in-out cursor-pointer"
+                className="flex items-center px-10 h-full text-gray-300 hover:text-brand transition duration-700 ease-in-out cursor-pointer"
                 to="contact"
                 smooth={true}
                 duration={1000}
@@ -73,7 +73,7 @@ const Navbar = ({ toggle }) => {
             </li>
             <li className="h-20">
               <LinkR
-                className="flex items-center px-7 h-full text-gray-300 hover:text-brand transition duration-700 ease-in-out cursor-pointer"
+                className="flex items-center px-10 h-full text-gray-300 hover:text-brand transition duration-700 ease-in-out cursor-pointer"
                 to={{
                   pathname: "https://dev.to/xaviranik",
                 }}
