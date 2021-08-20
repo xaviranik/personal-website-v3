@@ -57,7 +57,7 @@ const Portfolio = () => {
               <li
                 key={index}
                 onClick={() => filterProjects(filter)}
-                className={`text-brand cursor-pointer opacity-60 hover:opacity-100 transition duration-700 ease-out px-4 py-1 ml-4 first:ml-0 rounded-lg ${
+                className={`cursor-pointer text-brand opacity-60 hover:opacity-100 transition duration-700 ease-out px-4 py-1 ml-4 first:ml-0 rounded-lg ${
                   activeFilter === filter && "bg-brand-light opacity-100"
                 }`}
               >

@@ -36,28 +36,42 @@ const index = () => {
               <h2 className="mt-1 text-gray-400"> June 2020 - Present </h2>
               <ul className="leading-relaxed mt-6">
                 <li className="relative pl-5 mt-3 md:mt-4">
-                  Develop business and client - specific requirements of new
-                  modules, features, and enhancements for WooCommerce based
-                  large - scale system -{" "}
-                  <Link
-                    className="text-brand opacity-50"
-                    to={{
-                      pathname: "https://wedevs.com/dokan",
-                    }}
-                    target="_blank"
-                  >
-                    Dokan ( WordPress Plugin )
-                  </Link>
+                  <span className="text-brand opacity-50 absolute left-0">
+                    &#9672;
+                  </span>
+                  <span className="">
+                    Develop business and client - specific requirements of new
+                    modules, features, and enhancements for WooCommerce based
+                    large - scale system -{" "}
+                    <Link
+                      className="text-brand opacity-50"
+                      to={{
+                        pathname: "https://wedevs.com/dokan",
+                      }}
+                      target="_blank"
+                    >
+                      Dokan ( WordPress Plugin )
+                    </Link>
+                  </span>
                 </li>
                 <li className="relative pl-5 mt-3 md:mt-4">
+                  <span className="text-brand opacity-50 absolute left-0">
+                    &#9672;
+                  </span>
                   Streamline plugin features to effectively fix the bugs and
                   optimize overall performance, reliability, and efficiency
                 </li>
                 <li className="relative pl-5 mt-3 md:mt-4">
+                  <span className="text-brand opacity-50 absolute left-0">
+                    &#9672;
+                  </span>
                   Maintain release cycle, Assist team members through
                   architectural and code reviews
                 </li>
                 <li className="relative pl-5 mt-3 md:mt-4">
+                  <span className="text-brand opacity-50 absolute left-0">
+                    &#9672;
+                  </span>
                   Ensure elevated standards of project management in an Agile
                   environment and communicate with multi-disciplinary teams
                 </li>
@@ -84,18 +98,30 @@ const index = () => {
               <h2 className="mt-1 text-gray-400"> October 2019 - May 2020 </h2>
               <ul className="leading-relaxed mt-6">
                 <li className="relative pl-5 mt-3 md:mt-4">
+                  <span className="text-brand opacity-50 absolute left-0">
+                    &#9672;
+                  </span>
                   Developed a sophisticated Admin panel for WellBeing mobile
                   application for the management and comprehensive reports
                 </li>
                 <li className="relative pl-5 mt-3 md:mt-4">
+                  <span className="text-brand opacity-50 absolute left-0">
+                    &#9672;
+                  </span>
                   Conceptualized system architecture, designed, assembled
                   Laravel backend to consolidate business requirements
                 </li>
                 <li className="relative pl-5 mt-3 md:mt-4">
+                  <span className="text-brand opacity-50 absolute left-0">
+                    &#9672;
+                  </span>
                   Implemented, optimized REST APIs, integrated live sync with
                   external POS of outlets
                 </li>
                 <li className="relative pl-5 mt-3 md:mt-4">
+                  <span className="text-brand opacity-50 absolute left-0">
+                    &#9672;
+                  </span>
                   Established a Live notification system and user-centric
                   customized payment gateway
                 </li>
@@ -119,10 +145,16 @@ const index = () => {
               </h2>
               <ul className="leading-relaxed mt-6">
                 <li className="relative pl-5 mt-3 md:mt-4">
+                  <span className="text-brand opacity-50 absolute left-0">
+                    &#9672;
+                  </span>
                   Architected and implemented modern, performant, maintainable
                   code for a diverse array of client and internal projects
                 </li>
                 <li className="relative pl-5 mt-3 md:mt-4">
+                  <span className="text-brand opacity-50 absolute left-0">
+                    &#9672;
+                  </span>
                   Oversaw and collaborated with a small team of fellow
                   freelancers devs to spearhead technical requirements for
                   client - specified requirements
